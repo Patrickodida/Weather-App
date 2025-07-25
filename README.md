@@ -4,7 +4,7 @@ A simple and modern weather application built with **React**, **Vite**, and **Ta
 
 ## Live Demo
 
-[View Live Demo](#)
+[View Live Demo](https://weather-app-umber-zeta-50.vercel.app/)
 
 
 ##  Features
@@ -18,7 +18,7 @@ A simple and modern weather application built with **React**, **Vite**, and **Ta
 -  Uses **React hooks** (`useState`, `useEffect`) for state and effects
 
 
-## 🧪 Tech Stack
+##  Tech Stack
 
 | Tech           | Description                             |
 |----------------|-----------------------------------------|
@@ -43,10 +43,37 @@ The app fetches weather data from [OpenWeatherMap](https://openweathermap.org/ap
 4. If the city is invalid or not found, an error message is shown.
 
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 1. **Clone the repository:**
 
 ```bash
-git clone 
-cd smart-weather-app
+git clone https://github.com/Patrickodida/Weather-App.git
+cd react-weather-app
+```
+
+2. **Install dependencies:**
+
+```bash
+npm install
+```
+
+3. **Start the development server:**
+
+```bash
+npm run dev
+```
+
+4. **Open in browser:**
+
+Visit
+```bash
+http://localhost:5173 
+```
+to view the application
+
+
+##   Notes
+
+- The app uses a demo API key. For production use, replace it with your own key from OpenWeatherMap.
+- This app is for demo purposes and does not include backend support or token-based authentication.
